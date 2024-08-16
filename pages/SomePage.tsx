@@ -1,5 +1,5 @@
 // import React, { useState, useEffect } from "react";
-// import Analytics from "@components/Analytics"; // Ensure this path is correct
+import Analytics from "@components/Analytics"; 
 
 // interface AnalyticsData {
 //   totalClicks: number;
@@ -60,4 +60,4 @@
 //   );
 // };
 
-// export default SomePage;
+export default SomePage;
