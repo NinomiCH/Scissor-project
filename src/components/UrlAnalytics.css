@@ -1,0 +1,28 @@
+.analytics-container {
+  padding: 16px;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.analytics-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.analytics-clicks,
+.analytics-referrers {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.analytics-referrers {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

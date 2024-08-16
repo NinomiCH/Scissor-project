@@ -1,0 +1,57 @@
+/* src/components/UrlForm.css */
+.url-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.url-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #005bb5;
+}
+
+.result-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.short-url {
+  font-size: 18px;
+}
+
+.short-url-link {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.short-url-link:hover {
+  text-decoration: underline;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+}

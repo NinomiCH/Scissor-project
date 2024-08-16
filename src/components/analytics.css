@@ -1,0 +1,45 @@
+.analytics-container {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.analytics-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.analytics-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.analytics-metric {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0 8px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.analytics-footer {
+  margin-top: 16px;
+}
+
+.analytics-footer h3 {
+  margin-bottom: 8px;
+}
+
+.analytics-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.analytics-footer li {
+  margin-bottom: 4px;
+}

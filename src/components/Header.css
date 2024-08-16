@@ -1,0 +1,61 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+/* Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-link {
+    padding: 10px 15px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .header {
+    padding: 10px 15px;
+  }
+
+  .nav-link {
+    padding: 8px 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Adjust header size for smaller screens */
+  }
+}
